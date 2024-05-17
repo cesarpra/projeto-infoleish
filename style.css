@@ -96,10 +96,9 @@ body{
 /*CSS página 3*/
 
 section{
-    position: relative;
-    height: 100vh;
+    height: 100%;
     background-color: #ffcd05e8;
-    min-width: 100vw;
+    min-width: 100%;
     max-width: 600px;
     justify-content: right;
     margin: auto;
@@ -140,6 +139,10 @@ menu > ul > li > a{
     border-radius: 10px;
 }
 
+#itens{
+    display: none;
+}
+
 menu > ul > li > a:hover{
     background-color: #268b68;
 }
@@ -163,4 +166,11 @@ margin: 5px 30%;
 }
 section > img{
     text-align: center;
+}
+section > a{
+    color: #268b68;
+    margin: 10px 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
 }

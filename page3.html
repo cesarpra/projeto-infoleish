@@ -22,16 +22,18 @@
               <li><a href="#">LEMBRETES</a></li>
             </ul>
          </menu>
-         <img src="img/salsicha.png" alt="">
+         <img src="img/salsicha-g.png" alt="" id="sals">
+         <a href="boasvindas.html"><p></p>voltar</p></a>
     </section>
     <script>
        function clickMenu() {
-           if (itens.style.display == 'block') {
-            itens.style.display = 'none'
-            src = 'img/salsicha.png'
-           } else {
+        let sal = document.getElementById('sals')
+           if (itens.style.display == 'none') {
             itens.style.display = 'block'
-            src = './img/salsicha-g.png'
+            sals.src = 'img/salsicha.png'
+           } else {
+            itens.style.display = 'none'
+            sals.src = './img/salsicha-g.png'
            }
         }
     </script>
