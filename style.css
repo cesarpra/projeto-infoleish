@@ -24,8 +24,6 @@ body{
     position: relative;
     height: 100vh;
     background-color: #ffcd05e8;
-    min-width: 95vw;
-    max-width: 600px;
     justify-content: center;
     margin: auto;
 }
@@ -59,8 +57,7 @@ body{
     position: relative;
     background: linear-gradient(-122deg, #ffcd05e8 30%, #31bc8be8 30%);
     height: 100%;
-    min-width: 100vw;
-    max-width: 600px;
+    width: 100%;
     justify-content: center;
     margin: auto;
 }
@@ -99,7 +96,6 @@ section{
     height: 100%;
     background-color: #ffcd05e8;
     min-width: 100%;
-    max-width: 600px;
     justify-content: right;
     margin: auto;
 }
@@ -148,7 +144,6 @@ menu > ul > li > a:hover{
 }
  
 main{
-    width: 350px;
     background-color: white;
     margin: auto;
     margin-top: 10px;
