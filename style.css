@@ -13,7 +13,12 @@
     margin: 0px;
 }
 
-
+body{
+    background-color: var(--cor3);
+    background: url(./img/patas.jpg);
+    width: 120%;
+    
+}
 /*CSS página 1*/
 
 .main-1{
