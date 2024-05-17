@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+
+:root{
+    --cor0: #31bc8c;
+    --cor1: #ffce05;
+    --cor3: #fff;
+    --font0: arial, helvetica, sans-serif;
+    --font1: "Freeman", sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor3);
+    background: url(./img/patas.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*CSS página 1*/
+
+.main-1{
+    position: relative;
+    height: 100vh;
+    background-color: #ffcd05e8;
+    min-width: 95vw;
+    max-width: 600px;
+    justify-content: center;
+    margin: auto;
+}
+
+.titulo-1{
+    font-size: 5em;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+.main-1 > a{
+    text-decoration: none;
+}
+
+.titulo-1:hover{
+    color: #31bc8c;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.445);
+}
+.salsicha{
+
+    margin: 30px 100px 0px 100px;
+    
+}
+
+/*CSS página 2*/
+
+.main-2{
+    position: relative;
+    background: linear-gradient(-122deg, #ffcd05e8 30%, #31bc8be8 30%);
+    height: 100%;
+    min-width: 95vw;
+    max-width: 600px;
+    justify-content: center;
+    margin: auto;
+}
+
+.titulo{
+    font-family: var(--font1);
+    color: var(--cor3);
+    font-size: 2.5em;
+    text-align: right;
+    padding: 20px;
+}
+
+.txt{
+    color: white;
+    font-size: 1.5em;
+    display: inline;
+}  
+
+.txt > p{
+    width: 70%;
+    letter-spacing: 2px;
+    padding: 10px 0px 10px 20px;
+}
+
+.imagem{
+    display: inline;
+    margin: 0px 0px 30px 280px;
+}
+/*CSS página 3*/
+
+section{
+    position: relative;
+    height: 100vh;
+    background-color: #ffcd05e8;
+    min-width: 95vw;
+    max-width: 600px;
+    justify-content: right;
+    margin: auto;
+}
+
+.titulo-3{
+    font-family: var(--font1);
+    color: var(--cor3);
+    font-size: 2.5em;
+    text-align: center;
+    padding: 20px;
+}
+
+span#burguer{
+    background-color: #268b68;
+    margin: 10px 47%;
+    color: #ffce05;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+}
+
+span#burguer:hover{
+    background-color: #ffcd0510;
+    color: #37c593;
+}
+
+menu > ul > li > a{
+    display: block;
+    font-family: var(--font0);
+    font-size: 1em;
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: #31bc8c;
+    color: white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.336);
+    border-radius: 10px;
+}
+
+menu > ul > li > a:hover{
+    background-color: #268b68;
+}
+ 
+main{
+    width: 350px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+menu{
+    text-align: center;
+}
+
+menu > ul > li{
+display: block;
+margin: 5px 30%;
+}
+section > img{
+    text-align: center;
+}
