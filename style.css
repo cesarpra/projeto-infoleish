@@ -15,8 +15,7 @@
 
 body{
     background-color: var(--cor3);
-    background: url(./img/patas.jpg) no-repeat;
-    background-position: center;
+    background: url(./img/patas.jpg);
     background-size: cover;
 }
 /*CSS página 1*/
@@ -60,7 +59,7 @@ body{
     position: relative;
     background: linear-gradient(-122deg, #ffcd05e8 30%, #31bc8be8 30%);
     height: 100%;
-    min-width: 95vw;
+    min-width: 100vw;
     max-width: 600px;
     justify-content: center;
     margin: auto;
@@ -86,6 +85,10 @@ body{
     padding: 10px 0px 10px 20px;
 }
 
+.txt > p > a{
+    color: white;
+}
+
 .imagem{
     display: inline;
     margin: 0px 0px 30px 280px;
@@ -96,7 +99,7 @@ section{
     position: relative;
     height: 100vh;
     background-color: #ffcd05e8;
-    min-width: 95vw;
+    min-width: 100vw;
     max-width: 600px;
     justify-content: right;
     margin: auto;
