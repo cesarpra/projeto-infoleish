@@ -11,20 +11,23 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
-body{
+body, html{
     background-color: var(--cor3);
     background: url(./img/patas.jpg);
-    width: 130%;
-    height: 150%;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
     
 }
 /*CSS página 1*/
 
 .main-1{
     position: relative;
-    height: 100vh;
+    height: 120vh;
+    width: 500px;
     background-color: #ffcd05e8;
     justify-content: center;
     margin: auto;
@@ -32,6 +35,7 @@ body{
 
 .titulo-1{
     font-size: 5em;
+    font-weight: bolder;
     color: #fff;
     text-align: center;
     justify-content: center;
@@ -58,8 +62,8 @@ body{
 .main-2{
     position: relative;
     background: linear-gradient(-122deg, #ffcd05e8 30%, #31bc8be8 30%);
-    height: 100%;
-    width: 100%;
+    height: 120vh;
+    width: 500px;
     justify-content: center;
     margin: auto;
 }
@@ -70,12 +74,14 @@ body{
     font-size: 2.5em;
     text-align: right;
     padding: 20px;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.295);
 }
 
 .txt{
     color: white;
     font-size: 1.5em;
     display: inline;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.295);
 }  
 
 .txt > p{
@@ -88,88 +94,76 @@ body{
     color: white;
 }
 
-.imagem{
+div > img{
+    align-items: center;
     display: inline;
-    margin: 0px 0px 30px 280px;
+    margin: auto;
+    padding-left: 100px;
 }
 /*CSS página 3*/
 
 section{
-    height: 100%;
+    position: relative;
+    height: 130vh;
     background-color: #ffcd05e8;
-    min-width: 100%;
-    justify-content: right;
     margin: auto;
+    width: 500px;
 }
 
 .titulo-3{
-    text-shadow: 3px 2px rgba(0, 0, 0, 0.288);
+    color: white;
     font-family: var(--font1);
-    color: var(--cor3);
-    font-size: 2.5em;
+    font-size: 1.6em;
     text-align: center;
-    padding: 20px;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.295);
 }
 
 span#burguer{
-    background-color: #268b68;
-    margin: 10px 47%;
-    color: #ffce05;
-    border-radius: 5px;
-    display: inline-block;
-    padding: 1px;
+    text-align: center;
+    color: #31bc8c;
+    display: block;
     cursor: pointer;
 }
 
-span#burguer:hover{
-    background-color: #ffcd0510;
-    color: #37c593;
-}
-
-menu > ul > li > a{
-    display: block;
-    font-family: var(--font0);
-    font-size: 1em;
-    padding: 15px 20px;
-    text-decoration: none;
-    background-color: #31bc8c;
-    color: white;
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.336);
-    border-radius: 10px;
-}
-
-#itens{
-    display: none;
-}
-
-menu > ul > li > a:hover{
-    background-color: #268b68;
-}
- 
-main{
-    background-color: white;
-    margin: auto;
-    margin-top: 10px;
-    padding: 10px;
-    flex-direction: column;
-}
-
 menu{
+    display: none;
+    margin: auto;
+    width: 40vw;
+    padding: 10px;
     text-align: center;
+    
 }
 
 menu > ul > li{
-display: block;
-margin: 5px 30%;
+    display: block;
+    margin-top: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #31bc8c;
 }
-section > img{
-    text-align: center;
-}
-section > a{
-    color: #268b68;
-    margin: 10px 20px;
-    font-size: 25px;
-    font-weight: bolder;
+
+menu, a{
+    font-family: var(--font0);
+    color: white;
     text-decoration: none;
-    text-shadow: 2px 1px rgba(0, 0, 0, 0.123);
+    margin: auto;
+   
 }
+
+img{
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    align-items: center;
+    left: 12%;
+}
+
+.voltar{
+    color: #31bc8c;
+    font-size: 1.3em;
+    padding: 25px;
+    text-align: right;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.295);
+
+}
+

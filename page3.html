@@ -23,17 +23,18 @@
             </ul>
          </menu>
          <img src="img/salsicha-g.png" alt="" id="sals">
-         <a href="boasvindas.html"><p></p>voltar</p></a>
+         <a href="boasvindas.html"><p class="voltar">voltar</p></a>
     </section>
     <script>
        function clickMenu() {
+        let menu = document.getElementById('itens')
         let sal = document.getElementById('sals')
-           if (itens.style.display == 'none') {
-            itens.style.display = 'block'
-            sals.src = 'img/salsicha.png'
+           if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+            sals.src = 'img/salsicha-g.png'
            } else {
-            itens.style.display = 'none'
-            sals.src = './img/salsicha-g.png'
+            menu.style.display = 'block'
+            sals.src = './img/salsicha.png'
            }
         }
     </script>
