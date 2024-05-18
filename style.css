@@ -107,7 +107,7 @@ section{
     height: 130vh;
     background-color: #ffcd05e8;
     margin: auto;
-    width: 500px;
+    width: 600px;
 }
 
 .titulo-3{
@@ -132,7 +132,7 @@ span#burguer:hover{
 menu{
     display: none;
     margin: auto;
-    width: 40vw;
+    width: 50vw;
     padding: 10px;
     text-align: center;
     
@@ -144,7 +144,7 @@ menu > ul > li{
     padding: 20px;
     border-radius: 10px;
     background-color: #31bc8c;
-    transition: .2;
+    transition: .2s;
 }
 
 menu > ul > li:hover{
@@ -172,10 +172,6 @@ img{
     color: #31bc8c;
     font-size: 1.3em;
     padding: 25px;
-    text-align: right;
+    text-align: left;
     text-shadow: 2px 1px rgba(0, 0, 0, 0.295);
-
 }
-
-
-
