@@ -125,6 +125,10 @@ span#burguer{
     cursor: pointer;
 }
 
+span#burguer:hover{
+    color: #1f7557;
+}
+
 menu{
     display: none;
     margin: auto;
@@ -140,6 +144,12 @@ menu > ul > li{
     padding: 20px;
     border-radius: 10px;
     background-color: #31bc8c;
+    transition: .2;
+}
+
+menu > ul > li:hover{
+    background-color: #1f7557;
+    cursor: pointer;
 }
 
 menu, a{
