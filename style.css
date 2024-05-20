@@ -106,7 +106,7 @@ div > img{
 
 section{
     position: relative;
-    height: 130vh;
+    height: 125vh;
     background-color: var(--cor1);
     margin: auto;
     width: 600px;
@@ -173,7 +173,7 @@ section img{
     color: #31bc8c;
     font-size: 1.3em;
     padding: 25px;
-    text-align: end;
+    text-align: right;
     text-shadow: 2px 1px rgba(0, 0, 0, 0.295);
 }
 }
