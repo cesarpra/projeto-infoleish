@@ -58,7 +58,6 @@
 
 .titulo{
     display: inline-block;
-    float: right;
     font-family: var(--font1);
     color: var(--cor3);
     font-size: 2.5em;
